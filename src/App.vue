@@ -2,6 +2,7 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <h1>功夫不负有心人啊!</h1>
   <h2>测试自动构建</h2>
+  <h3>配置测试</h3>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
