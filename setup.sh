@@ -12,7 +12,7 @@ docker build -t first_test:$image_version .;
 # 查看镜像列表
 docker images;
 # 基于 first_test 镜像 构建一个容器 first_test
-docker run -d --name FIRSTTEST -p 80:80 first_test:$image_version;
+docker run -d --name FIRSTTEST -p 8011:80 first_test:$image_version;
 # 查看日志
 docker logs FIRSTTEST;
 #删除build过程中产生的镜像    #docker image prune -a -f
