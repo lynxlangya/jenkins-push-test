@@ -1,6 +1,5 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <h1>功夫不负有心人啊!</h1>
   <h2>测试自动构建</h2>
   <h1 style="color: red;">Success!!!</h1>
   <HelloWorld msg="Welcome to Your Vue.js App" />
